@@ -302,10 +302,3 @@ def test_dataset_load_all_true():
     assert isinstance(fsdd.labels, list)
     assert isinstance(fsdd.labels[0], int)
     assert len(fsdd.labels) == len(files)
-
-def test_dataset_args():
-    offset = 100
-    files = glob.glob('lib/test/data/v1.0.10/*.wav')
-    x1, _ = TorchFSDD(files)[0]
-    x2, _ = TorchFSDD(files, offset=offset)[0]
-    assert torch.eq(x2, x1[100:]).all()
