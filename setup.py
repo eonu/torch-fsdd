@@ -47,5 +47,5 @@ setup(
     ],
     python_requires = '>=3.6',
     install_requires = install_requires,
-    extra_requires = {'torch': ['torch>=1.6+cpu', 'torchaudio>=0.6+cpu']}
+    extra_requires = {'torch': ['torch>=1.8+cpu', 'torchaudio>=0.8+cpu']}
 )
