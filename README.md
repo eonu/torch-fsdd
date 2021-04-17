@@ -69,8 +69,8 @@ pip install torchfsdd
 
 **Note**: TorchFSDD assumes you have the following packages already installed (along with Python v3.6+).
 
-- [`torch`](https://github.com/pytorch/audio) (>= 1.6.0)
-- [`torchaudio`](https://github.com/pytorch/pytorch) (>= 0.6.0)
+- [`torch`](https://github.com/pytorch/audio) (>= 1.8.0)
+- [`torchaudio`](https://github.com/pytorch/pytorch) (>= 0.8.0)
 
 Since there are many different possible configurations when installing PyTorch (e.g. CPU or GPU, CUDA version), we leave this up to the user instead of specifying particular binaries to install alongside TorchFSDD.
 
