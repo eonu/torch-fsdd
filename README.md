@@ -19,9 +19,6 @@
     <a href="https://torchfsdd.readthedocs.io/en/latest">
         <img src="https://readthedocs.org/projects/torchfsdd/badge/?version=latest&style=flat-square" alt="Read The Docs - Documentation">
     </a>
-    <a href="https://travis-ci.org/eonu/torchfsdd">
-        <img src="https://img.shields.io/travis/eonu/torchfsdd?logo=travis&style=flat-square" alt="Travis - Build">
-    </a>
 </p>
 
 ## About
@@ -32,6 +29,12 @@ The data set can be though of as an audio version of the popular [MNIST data set
 
 Models based on recurrent neural networks that can be implemented in PyTorch are a common approach
 for this task, and TorchFSDD aims to provide an interface to FSDD for such neural networks in PyTorch, by providing a [`torch.utils.data.Dataset`](https://pytorch.org/docs/stable/data.html#torch.utils.data.Dataset) wrapper that is ready to be used with a [`torch.utils.data.DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader).
+
+## Build status
+
+| `master` | `dev` |
+| -------- | ------|
+| [![Travis Build (Master)](https://img.shields.io/travis/com/eonu/torch-fsdd?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) | [![Travis Build (Development)](https://img.shields.io/travis/com/eonu/torch-fsdd/dev?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) |
 
 ## Examples
 
