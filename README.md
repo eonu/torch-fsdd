@@ -16,8 +16,8 @@
     <a href="https://raw.githubusercontent.com/eonu/torchfsdd/master/LICENSE">
         <img src="https://img.shields.io/pypi/l/torchfsdd?style=flat-square" alt="PyPI - License"/>
     </a>
-    <a href="https://torchfsdd.readthedocs.io/en/latest">
-        <img src="https://readthedocs.org/projects/torchfsdd/badge/?version=latest&style=flat-square" alt="Read The Docs - Documentation">
+    <a href="https://torch-fsdd.readthedocs.io/en/latest/">
+        <img src="https://readthedocs.org/projects/torch-fsdd/badge/?version=latest&style=flat-square" alt="Read The Docs - Documentation">
     </a>
 </p>
 
