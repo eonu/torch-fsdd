@@ -16,11 +16,8 @@
     <a href="https://raw.githubusercontent.com/eonu/torchfsdd/master/LICENSE">
         <img src="https://img.shields.io/pypi/l/torchfsdd?style=flat-square" alt="PyPI - License"/>
     </a>
-    <a href="https://torchfsdd.readthedocs.io/en/latest">
-        <img src="https://readthedocs.org/projects/torchfsdd/badge/?version=latest&style=flat-square" alt="Read The Docs - Documentation">
-    </a>
-    <a href="https://travis-ci.org/eonu/torchfsdd">
-        <img src="https://img.shields.io/travis/eonu/torchfsdd?logo=travis&style=flat-square" alt="Travis - Build">
+    <a href="https://torch-fsdd.readthedocs.io/en/latest/">
+        <img src="https://readthedocs.org/projects/torch-fsdd/badge/?version=latest&style=flat-square" alt="Read The Docs - Documentation">
     </a>
 </p>
 
@@ -32,6 +29,12 @@ The data set can be though of as an audio version of the popular [MNIST data set
 
 Models based on recurrent neural networks that can be implemented in PyTorch are a common approach
 for this task, and TorchFSDD aims to provide an interface to FSDD for such neural networks in PyTorch, by providing a [`torch.utils.data.Dataset`](https://pytorch.org/docs/stable/data.html#torch.utils.data.Dataset) wrapper that is ready to be used with a [`torch.utils.data.DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader).
+
+## Build status
+
+| `master` | `dev` |
+| -------- | ------|
+| [![Travis Build (Master)](https://img.shields.io/travis/com/eonu/torch-fsdd?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) | [![Travis Build (Development)](https://img.shields.io/travis/com/eonu/torch-fsdd/dev?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) |
 
 ## Examples
 
@@ -69,8 +72,8 @@ pip install torchfsdd
 
 **Note**: TorchFSDD assumes you have the following packages already installed (along with Python v3.6+).
 
-- [`torch`](https://github.com/pytorch/audio) (>= 1.6.0)
-- [`torchaudio`](https://github.com/pytorch/pytorch) (>= 0.6.0)
+- [`torch`](https://github.com/pytorch/audio) (>= 1.8.0)
+- [`torchaudio`](https://github.com/pytorch/pytorch) (>= 0.8.0)
 
 Since there are many different possible configurations when installing PyTorch (e.g. CPU or GPU, CUDA version), we leave this up to the user instead of specifying particular binaries to install alongside TorchFSDD.
 

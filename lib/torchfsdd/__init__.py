@@ -1,4 +1,4 @@
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 import importlib, platform
 from pkg_resources import packaging
@@ -7,8 +7,8 @@ if packaging.version.parse(platform.python_version()) < packaging.version.parse(
 else:
     from importlib import metadata
 
-MIN_TORCH_VERSION = '1.6'
-MIN_TORCHAUDIO_VERSION = '0.6'
+MIN_TORCH_VERSION = '1.8'
+MIN_TORCHAUDIO_VERSION = '0.8'
 
 def check_package(pkg, min_version, url):
     """Checks whether a specified package has been installed,
@@ -20,7 +20,7 @@ def check_package(pkg, min_version, url):
         Name of the package.
 
     min_version: str
-        Minimum version for the package, e.g. `1.6`.
+        Minimum version for the package, e.g. `1.8`.
 
     url: str
         Package installation page URL (for help).

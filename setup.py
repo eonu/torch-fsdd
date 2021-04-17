@@ -4,7 +4,7 @@ import platform
 from pkg_resources import packaging
 from setuptools import setup, find_packages
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 with open('README.md', 'r', encoding='utf8') as fh:
     long_description = fh.read()
@@ -47,5 +47,5 @@ setup(
     ],
     python_requires = '>=3.6',
     install_requires = install_requires,
-    extra_requires = {'torch': ['torch>=1.6+cpu', 'torchaudio>=0.6+cpu']}
+    extra_requires = {'torch': ['torch>=1.8+cpu', 'torchaudio>=0.8+cpu']}
 )
