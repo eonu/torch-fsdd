@@ -4,7 +4,7 @@ import platform
 from pkg_resources import packaging
 from setuptools import setup, find_packages
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 with open('README.md', 'r', encoding='utf8') as fh:
     long_description = fh.read()
