@@ -90,7 +90,7 @@ class TorchFSDDGenerator:
         test_set: :class:`TorchFSDD`
             The test set :class:`torch:torch.utils.data.Dataset` wrapper.
         """
-        assert 0. <= test_size < 1.
+        assert 0. < test_size < 1.
 
         train_files, test_files = [], []
         n_test = int(N_REC * test_size)
