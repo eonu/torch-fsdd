@@ -1,3 +1,17 @@
+# Changelog
+
+## [0.1.2](https://github.com/eonu/torch-fsdd/releases/tag/v0.1.2)
+
+### Major changes
+
+- Don't allow zero `test_size` (see #7). ([#11](https://github.com/eonu/torch-fsdd/pull/11))
+- Change `extra_requires` to `extras_require` in `setup.py`. ([#9](https://github.com/eonu/torch-fsdd/pull/9))<br/>(this is why `pip install torchfsdd[torch]` didn't work!)
+
+### Minor changes
+
+- Bump package development status to beta. ([#10](https://github.com/eonu/torch-fsdd/pull/10))
+- Swap `torch` and `torchaudio` links in `README.md`. ([#8](https://github.com/eonu/torch-fsdd/pull/8))
+
 ## [0.1.1](https://github.com/eonu/torch-fsdd/releases/tag/v0.1.1)
 
 ### Major changes
