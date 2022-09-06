@@ -87,7 +87,7 @@ Make sure you have `torch` and `torchaudio` versions that are [compatible](https
 
 ## Documentation
 
-Documentation for the package is available on [Read The Docs](https://torchfsdd.readthedocs.io/en/latest).
+Documentation for the package is available on [Read The Docs](https://torch-fsdd.readthedocs.io/en/latest).
 
 ## Contributors
 
