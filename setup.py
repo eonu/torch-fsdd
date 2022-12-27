@@ -71,7 +71,8 @@ setup(
             'm2r2',
             'mistune==0.8.4',
             'Jinja2',
-            'sphinx-version-warning'
+            'sphinx-version-warning',
+            'pytest'
         ]
     }
 )
