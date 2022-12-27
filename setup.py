@@ -64,13 +64,14 @@ setup(
         'dev': [
             'torch>=1.8+cpu',
             'torchaudio>=0.8+cpu',
+            'torchvision>=0.8',
             'sphinx',
             'numpydoc',
             'sphinx_rtd_theme',
             'sphinx-autobuild',
             'm2r2',
             'mistune==0.8.4',
-            'Jinja2',
+            'Jinja2<3.1',
             'sphinx-version-warning',
             'pytest'
         ]
