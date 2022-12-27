@@ -34,7 +34,7 @@ for this task, and TorchFSDD aims to provide an interface to FSDD for such neura
 
 | `master` | `dev` |
 | -------- | ------|
-| [![Travis Build (Master)](https://img.shields.io/travis/com/eonu/torch-fsdd?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) | [![Travis Build (Development)](https://img.shields.io/travis/com/eonu/torch-fsdd/dev?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) |
+| [![CircleCI Build (Master)](https://img.shields.io/circleci/build/github/eonu/torch-fsdd/master?logo=circleci&style=flat-square)](https://app.circleci.com/pipelines/github/eonu/torch-fsdd?branch=master) | [![CircleCI Build (Development)](https://img.shields.io/circleci/build/github/eonu/torch-fsdd/dev?logo=circleci&style=flat-square)](https://app.circleci.com/pipelines/github/eonu/torch-fsdd?branch=master) |
 
 ## Examples
 
@@ -113,6 +113,6 @@ All contributions to this repository are greatly appreciated. Contribution guide
 ---
 
 <p align="center">
-  <b>TorchFSDD</b> &copy; 2021-2022, Edwin Onuonga - Released under the <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br/>
+  <b>TorchFSDD</b> &copy; 2021-2023, Edwin Onuonga - Released under the <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br/>
   <em>Authored and maintained by Edwin Onuonga.</em>
 </p>
