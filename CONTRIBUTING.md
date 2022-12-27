@@ -12,7 +12,7 @@ Prior to reporting an issue, please ensure:
 
 ## Making changes to TorchFSDD
 
-- **Add specs**: Your pull request won't be accepted if it doesn't have any specs.
+- **Add tests**: Your pull request won't be accepted if it doesn't have any tests.
 
 - **Document any change in behaviour**: Make sure the README and all other relevant documentation is kept up-to-date.
 
@@ -23,31 +23,25 @@ Prior to reporting an issue, please ensure:
 - **Meaningful commit messages**: Make sure each individual commit in your pull request has a meaningful message.
 
 - **De-clutter commit history**: If you had to make multiple intermediate commits while developing, please squash them before making your pull request.
-
-### Branch naming conventions
-
-Branch names must be of the form `type/short-phrase-or-description`, where `type` is either a:
-
-- `patch`: Making a change to an existing feature.
-- `add`: Adding a new feature.
-- `rm`: Removing an existing feature.
-
-Branches should typically feature only one main change. If making multiple unrelated changes, please create separate branches and open separate pull requests.
+  Or add a note on the PR specifying to squash and merge your changes when ready to be merged.
 
 ### Making pull requests
 
-Pull request titles must be of the form `[type:specifier] Pull request title`, where `type` is the same as the branch type (read above).
+Please make new branches based on the current `dev` branch, and merge your PR back into `dev` (making sure you have fetched the latest changes).
 
-The `specifier` should be one of:
+### Installing dependencies
 
-- `pkg`: Changes to any core package configuration.
-- `lib`: Changes to any library code.
-- `ci`: Changes to `.travis.yml`.
-- `tests`: Changes to any test code.
-- `git`: Changes to any Git-related code, such as `.gitignore`.
-- `docs`: Changes to any documentation such as the Read The Docs documentation, `README.md`, `CONTRIBUTING.md`, `LICENSE` or `CHANGELOG.md`.
+If you intend to help contribute to TorchFSDD, you will need some additional dependencies for running tests, notebooks and generating documentation.
 
-Continuous integration (Travis CI) builds must pass in order for your pull request to be merged.
+You can specify the `dev` extra when installing TorchFSDD to do this.
+
+```console
+pip install torch-fsdd[dev]
+```
+
+If installing a TorchFSDD from a local directory, you can use `pip install -e .` from within that directory, or `pip install -e .[xxx]` to install with extras.
+
+Note that on some shells you may have to use quote marks, e.g. `pip install -e ".[xxx]"`.
 
 ## License
 

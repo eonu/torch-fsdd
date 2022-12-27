@@ -25,7 +25,7 @@
 
 The [Free Spoken Digit Dataset](https://github.com/Jakobovski/free-spoken-digit-dataset) is an open data set consisting of audio recordings of various individuals speaking the digits from 0-9, with 50 recordings of each digit per individual.
 
-The data set can be though of as an audio version of the popular [MNIST data set](https://en.wikipedia.org/wiki/MNIST_database) which consists of hand-written digits. However, the fact that the data consists of recordings of different length makes it more challenging to deal with than the fixed-size images of MNIST.
+The data set can be thought of as an audio version of the popular [MNIST data set](https://en.wikipedia.org/wiki/MNIST_database) which consists of hand-written digits. However, the fact that the data consists of recordings of different durations makes it more challenging to deal with than the fixed-size images of MNIST.
 
 TorchFSDD aims to provide an interface to FSDD for PyTorch model development, by providing a [`torch.utils.data.Dataset`](https://pytorch.org/docs/stable/data.html#torch.utils.data.Dataset) wrapper that is ready to be used with a [`torch.utils.data.DataLoader`](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader).
 
@@ -33,7 +33,7 @@ TorchFSDD aims to provide an interface to FSDD for PyTorch model development, by
 
 | `master` | `dev` |
 | -------- | ------|
-| [![Travis Build (Master)](https://img.shields.io/travis/com/eonu/torch-fsdd?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) | [![Travis Build (Development)](https://img.shields.io/travis/com/eonu/torch-fsdd/dev?logo=travis&style=flat-square)](https://travis-ci.com/github/eonu/torch-fsdd) |
+| [![CircleCI Build (Master)](https://img.shields.io/circleci/build/github/eonu/torch-fsdd/master?logo=circleci&style=flat-square)](https://app.circleci.com/pipelines/github/eonu/torch-fsdd?branch=master) | [![CircleCI Build (Development)](https://img.shields.io/circleci/build/github/eonu/torch-fsdd/dev?logo=circleci&style=flat-square)](https://app.circleci.com/pipelines/github/eonu/torch-fsdd?branch=master) |
 
 ## Examples
 
@@ -119,6 +119,6 @@ All contributions to this repository are greatly appreciated. Contribution guide
 ---
 
 <p align="center">
-  <b>TorchFSDD</b> &copy; 2021-2022, Edwin Onuonga - Released under the <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br/>
+  <b>TorchFSDD</b> &copy; 2021-2023, Edwin Onuonga - Released under the <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br/>
   <em>Authored and maintained by Edwin Onuonga.</em>
 </p>

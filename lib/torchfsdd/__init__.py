@@ -1,11 +1,15 @@
-__version__ = '0.1.2'
-
 import importlib, platform
 from pkg_resources import packaging
 if packaging.version.parse(platform.python_version()) < packaging.version.parse('3.8'):
     import importlib_metadata as metadata
 else:
     from importlib import metadata
+
+__name__ = "torchfsdd"
+__version__ = "0.1.2"
+__author__ = "Edwin Onuonga"
+__email__ = "ed@eonu.net"
+__copyright__ = f"2019-2023, {__author__}"
 
 MIN_TORCH_VERSION = '1.8'
 MIN_TORCHAUDIO_VERSION = '0.8'
