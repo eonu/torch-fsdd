@@ -6,7 +6,7 @@ else:
     from importlib import metadata
 
 __name__ = "torchfsdd"
-__version__ = "0.1.2"
+__version__ = "1.0.0"
 __author__ = "Edwin Onuonga"
 __email__ = "ed@eonu.net"
 __copyright__ = f"2019-2023, {__author__}"
