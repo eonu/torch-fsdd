@@ -6,7 +6,7 @@
 
 # -- Path setup --------------------------------------------------------------
 
-import sys, os, subprocess
+import sys, os
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -19,15 +19,11 @@ except ImportError:
     sys.path.insert(0, os.path.abspath('../lib'))
     import torchfsdd
 
-subprocess.call('pip install numpydoc sphinx_rtd_theme m2r2 sphinx-version-warning', shell=True)
-
 # -- Project information -----------------------------------------------------
 
-project = 'torchfsdd'
-copyright = '2021-2022, Edwin Onuonga'
-author = 'Edwin Onuonga'
-
-# The full version, including alpha/beta/rc tags
+project = torchfsdd.__name__
+author = torchfsdd.__author__
+copyright = torchfsdd.__copyright__
 release = torchfsdd.__version__
 
 # -- General configuration ---------------------------------------------------
@@ -47,7 +43,7 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    'numpy': ('http://docs.scipy.org/doc/numpy/', None),
+    'numpy': ('https://numpy.org/doc/stable/', None),
     'torch': ('https://pytorch.org/docs/stable/', None),
     'torchaudio': ('https://pytorch.org/audio/stable/', None),
     'torchvision': ('https://pytorch.org/vision/stable/', None),
